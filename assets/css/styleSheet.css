@@ -1,0 +1,738 @@
+/*--------------------------Start header--------------------------------*/
+
+#header {
+    position: fixed;
+    width: 100%;
+    height: 45px;
+    z-index: 2;
+    background-color: #33334F;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.22);
+}
+
+#header > section {
+    position: relative;
+    height: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#header > section > div {
+    position: absolute;
+    top: 5px;
+    width: 150px;
+    height: 35px;
+}
+
+#header > section > .signature > h3 {
+    position: absolute;
+    font-size: 30px;
+    left: 10px;
+    top: 1px;
+    margin: auto;
+    color: white;
+}
+
+#header > section > .signature > h3 > span:nth-child(1) > span {
+    color: #FF415B !important;
+}
+
+header > section > nav > ul {
+    position: absolute;
+    margin: auto;
+    top: 15px;
+    right: 0;
+    list-style: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+        'Helvetica Neue', sans-serif;
+}
+
+section > nav > ul > li {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+section > nav > ul > li > a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+section > nav > ul > li > a:hover {
+    color: #F9CF51;
+}
+
+/*--------------------------Start Home--------------------------------*/
+
+.home {
+    position: relative;
+    background-color: #33334F;
+    width: 100%;
+    height: 100vh;
+}
+
+.home > .profilePicture {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: -150px;
+    margin: auto;
+}
+
+.home > .profilePicture > img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.home > .textContainer {
+    position: absolute;
+    bottom: 0;
+    top: 155px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: max-content;
+    width: 325px;
+    line-height: 5px;
+}
+
+.home > .textContainer > .txtMyName {
+    font-size: 30px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.home > .textContainer > .txtIAm {
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+    margin-left: 45px;
+}
+
+.home > .textContainer > .socialLinks {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 20px;
+    margin-left: 64px;
+    top: 25px;
+}
+
+.home > .textContainer > .socialLinks a{
+    flex-grow: 1;
+}
+
+.home > .textContainer > .socialLinks a i {
+    font-size: 20px;
+    color: white;
+}
+
+.home > .textContainer > .btnHireMe {
+    position: absolute;
+    inset: 240px 0 0 0;
+    margin: auto;
+    width: 100px;
+    height: 32px;
+    border-radius: 20px;
+    background-color: #FF415B;
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+.home > .textContainer > .btnHireMe:hover {
+    background-color: transparent;
+    border: 2px solid #FF415B;
+    color: white;
+}
+
+.home > .textContainer > .scrollDown {
+    position: absolute;
+    inset: 400px 0 0 0;
+    margin: auto;
+    width: 76px;
+    height: 32px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+}
+
+.home > .textContainer > .fas {
+    position: absolute;
+    inset: 400px 0 0 0;
+    margin: auto;
+    width: 22px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+}
+
+.home > .shapes1 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-image: url("/assets/images/shapes/small icon-01.png");
+    top: 30px;
+}
+
+.home > .shapes2 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-image: url("/assets/images/shapes/small icon-03.png");
+    top: 85px;
+    left: 270px;
+}
+
+.home > .shapes3 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-image: url("/assets/images/shapes/small icon-04.png");
+    top: 220px;
+    left: 80px;
+}
+
+.home > .shapes4 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-image: url("/assets/images/shapes/small icon-02.png");
+    top: 315px;
+    left: 360px;
+}
+
+.home > .shapes5 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-image: url("/assets/images/shapes/small icon-08.png");
+    top: 540px;
+    left: 270px;
+}
+
+.home > .shapes6 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-image: url("/assets/images/shapes/small icon-13.png");
+    top: 450px;
+    left: 60px;
+}
+
+.home > .shapes7 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-image: url("/assets/images/shapes/small icon-05.png");
+    top: 60px;
+    left: 1082px;
+}
+
+.home > .shapes8 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-image: url("/assets/images/shapes/small icon-02.png");
+    top: 90px;
+    left: 800px;
+}
+
+.home > .shapes9 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-image: url("/assets/images/shapes/small icon-06.png");
+    top: 320px;
+    left: 860px;
+}
+
+.home > .shapes10 {
+    position: absolute;
+    width: 72px;
+    height: 70px;
+    background-image: url("/assets/images/shapes/small icon-11.png");
+    top: 300px;
+    left: 1180px;
+}
+
+.home > .shapes11 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-image: url("/assets/images/shapes/small icon-04.png");
+    top: 536px;
+    left: 1190px;
+}
+
+.home > .shapes12 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-image: url("/assets/images/shapes/small icon-14.png");
+    top: 520px;
+    left: 770px;
+}
+
+/*--------------------------End Home--------------------------------*/
+
+
+/*--------------------------Start About me--------------------------------*/
+
+.aboutMe {
+    position: relative;
+    background-color: #E5E5E5;
+    width: 100%;
+    height: 100vh;
+}
+
+.aboutMe > .topicAboutMe {
+    position: absolute;
+    left: 70px;
+    top: 50px;
+    color: #33334F;
+    font-family: -apple-system, serif;
+    font-size: 15px;
+}
+
+.aboutMe > .dotsImage {
+    position: absolute;
+    left: 46px;
+    top: 68px;
+    font-size: 31px;
+    color: rgba(128, 128, 128, 0.23);
+}
+
+.aboutMe > .aboutMePicture {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 10px;
+    top: 105px;
+}
+
+.aboutMe > .aboutMePicture > img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.aboutMe > .txtAboutMe {
+    position: absolute;
+    background-color: #ffffff;
+    width: 68%;
+    height: 35%;
+    border-radius: 20px;
+    box-shadow: 7px 7px 12px 0 #928c8c;
+    top: 145px;
+    left: 290px;
+}
+
+.aboutMe > .txtAboutMe:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid #ffffff;
+    border-top: 10px solid #ffffff;
+    border-bottom: 10px solid transparent;
+    left: -19px;
+    top: 20px;
+}
+
+.aboutMe > .txtAboutMe > .txtMyDetails {
+    position: relative;
+    padding: 10px;
+    max-width: 400px;
+    line-height: 28px;
+    left: 26px;
+    top: -4px;
+    color: rgba(0, 0, 0, 0.78);
+}
+
+.aboutMe > .txtAboutMe > .btnDownloadCv {
+    position: relative;
+    width: 128px;
+    height: 32px;
+    border-radius: 20px;
+    background-color: #FF415B;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    top: -24px;
+    left: 33px;
+}
+
+.aboutMe > .txtAboutMe > .btnDownloadCv:hover {
+    background-color: transparent;
+    border: 2px solid #FF415B;
+    color: black;
+}
+
+.aboutMe > .txtAboutMe > .container-skills {
+    position: relative;
+    margin: 20px auto 0 auto;
+    max-width: 400px;
+    top: -224px;
+    left: 214px;
+    line-height: 2;
+}
+
+.bar {
+    position: relative;
+    background-color: #E5E5E5;
+    height: 10px;
+    margin: 0 0 20px 0;
+}
+
+.bar-fill {
+    position: absolute;
+    height: 10px;
+}
+
+.bar-title {
+    position: relative;
+    font-size: 15px;
+    text-align: left;
+    margin: 0 0 5px 0;
+}
+
+.percent {
+    position: absolute;
+    right: 0;
+}
+
+.bar-fill-java {
+    width: 90%;
+    background-color: #F9CF51;
+    animation:bar-fill-java 2s ease-out;
+    -moz-animation: bar-fill-java 2s ease-out;
+    -webkit-animation: bar-fill-java 2s ease-out;
+}
+
+@keyframes bar-fill-java {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+@-moz-keyframes bar-fill-java {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+@-webkit-keyframes bar-fill-java {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+.bar-fill-html {
+    width: 60%;
+    background-color: #FF415B;
+    animation: bar-fill-html 2s ease-out;
+    -moz-animation: bar-fill-html 2s ease-out;
+    -webkit-animation: bar-fill-html 2s ease-out;
+}
+
+@keyframes bar-fill-html {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+@-moz-keyframes bar-fill-html {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+@-webkit-keyframes bar-fill-html {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+.bar-fill-mysql{
+    width: 70%;
+    background-color: #5E69DF;
+    animation: bar-fill-mysql 2s ease-out;
+    -moz-animation: bar-fill-mysql 2s ease-out;
+    -webkit-animation: bar-fill-mysql 2s ease-out;
+}
+
+@keyframes bar-fill-mysql {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+@-moz-keyframes bar-fill-mysql {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+@-webkit-keyframes bar-fill-mysql {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+.aboutMe > .statContainer {
+    position: absolute;
+    bottom: 210px;
+    left: 162px;
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutMe > .statContainer > div {
+    position: relative;
+    width: 270px;
+}
+
+.aboutMe > .statContainer > div > .fas {
+    position: absolute;
+    height: 100%;
+    font-size: 25px;
+    color: rgba(128, 128, 128, 0.36);
+}
+
+.aboutMe > .statContainer > div > h3 {
+    position: absolute;
+    left: 43px;
+    top: -17px;
+    font-size: 19px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.aboutMe > .statContainer > div > p {
+    position: absolute;
+    left: 41px;
+    top: 19px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.72);
+}
+
+.aboutMe > .aboutMeQuote {
+    position: absolute;
+    width: 335px;
+    height: 45px;
+    right: 460px;
+    bottom: 50px;
+    margin: auto;
+    /*border: 2px solid #33334F;*/
+    background-color: #33334F;
+    border-radius: 0 30px 0 30px;
+    animation-name: up-down;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+@keyframes up-down {
+    from{
+    }
+    to{
+        bottom: 10px;
+    }
+}
+
+.aboutMe > .aboutMeQuote > p {
+    position: relative;
+    width: 330px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 12px;
+    color: #ffffff;
+}
+
+/*--------------------------End About me--------------------------------*/
+
+/*--------------------------Start Services--------------------------------*/
+
+.services {
+    position: relative;
+    background-color: #E5E5E5;
+    width: 100%;
+    height: 100vh;
+}
+
+.services > .topicService {
+    position: absolute;
+    left: 70px;
+    top: 50px;
+    color: #33334F;
+    font-family: -apple-system, serif;
+    font-size: 15px;
+}
+
+.services > .dotsImage {
+    position: absolute;
+    left: 46px;
+    top: 68px;
+    font-size: 31px;
+    color: rgba(128, 128, 128, 0.23);
+}
+
+.services > .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    top: 142px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+}
+
+.services > .box > .appDevelopment {
+    height: 265px;
+    width: 285px;
+    padding: 20px 35px;
+    background: #5E69DF;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    transition: all 0.1s;
+    cursor: pointer;
+}
+
+.services > .box > .webDevelopment {
+    height: 265px;
+    width: 285px;
+    padding: 20px 35px;
+    background: #F9CF51;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    transition: all 0.1s;
+    cursor: pointer;
+}
+
+.services > .box > .uiUxDesign {
+    height: 265px;
+    width: 285px;
+    padding: 20px 35px;
+    background: #FF415B;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    transition: all 0.1s;
+    cursor: pointer;
+}
+
+.services > .box > .card:hover {
+    transition: all 0.1s;
+    transform: scale(1);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.services > .box > .appDevelopment > .imgAppDev > img {
+    position: relative;
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0;
+    width: 180px;
+    height: 150px;
+    top: -50px;
+    left: 48px;
+}
+
+.services > .box > .appDevelopment > .app {
+    position: relative;
+    color: #ffffff;
+    font-size: 25px;
+    margin-bottom: 15px;
+    top: -94px;
+}
+
+.services > .box > .webDevelopment > .web {
+    color: black;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.services > .box > .uiUxDesign > .uiUx {
+    color: #ffffff;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.services > .box > .appDevelopment > .praApp p {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    position: relative;
+    top: -96px;
+}
+
+.services > .box > .webDevelopment > .praWeb p {
+    color: black;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.services > .box > .uiUxDesign > .praUiUx p {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
