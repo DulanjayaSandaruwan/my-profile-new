@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2315b9b9-6f87-4eca-8db2-b7409dc0b3b9" name="Changes" comment="add new section" />
+    <list default="true" id="2315b9b9-6f87-4eca-8db2-b7409dc0b3b9" name="Changes" comment="add new section">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/styleSheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styleSheet.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -145,6 +148,9 @@
       <workItem from="1642582478645" duration="18000" />
       <workItem from="1642582843868" duration="20000" />
       <workItem from="1642582914016" duration="143000" />
+      <workItem from="1642586024927" duration="449000" />
+      <workItem from="1642587592192" duration="24000" />
+      <workItem from="1642594129417" duration="556000" />
     </task>
     <task id="LOCAL-00001" summary="add new section">
       <created>1642580494269</created>
