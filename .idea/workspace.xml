@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2315b9b9-6f87-4eca-8db2-b7409dc0b3b9" name="Changes" comment="add new section">
-      <change beforePath="$PROJECT_DIR$/assets/css/styleSheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styleSheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +30,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="20bCFgwMsT3eImB2q0t7KlqPr0A" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -149,7 +153,22 @@
       <workItem from="1642582914016" duration="143000" />
       <workItem from="1642586024927" duration="449000" />
       <workItem from="1642587592192" duration="24000" />
-      <workItem from="1642594129417" duration="852000" />
+      <workItem from="1642594129417" duration="1892000" />
+      <workItem from="1642647006768" duration="128000" />
+      <workItem from="1642653312567" duration="43000" />
+      <workItem from="1642653987436" duration="81000" />
+      <workItem from="1642663667074" duration="37000" />
+      <workItem from="1642663977277" duration="321000" />
+      <workItem from="1642666054541" duration="21000" />
+      <workItem from="1642678964336" duration="971000" />
+      <workItem from="1642681489603" duration="604000" />
+      <workItem from="1642697671976" duration="28000" />
+      <workItem from="1642698750066" duration="2891000" />
+      <workItem from="1642740073035" duration="21000" />
+      <workItem from="1642789902833" duration="145000" />
+      <workItem from="1642823086848" duration="15000" />
+      <workItem from="1642839823562" duration="28000" />
+      <workItem from="1642845046556" duration="4000" />
     </task>
     <task id="LOCAL-00001" summary="add new section">
       <created>1642580494269</created>
@@ -181,7 +200,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add new section" />

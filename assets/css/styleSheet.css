@@ -671,7 +671,7 @@ section > nav > ul > li > a:hover {
 
 .services > .box > .card:hover {
     transition: all 0.1s;
-    transform: scale(1);
+    transform: scale(1.05);
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
 }
 
@@ -695,16 +695,44 @@ section > nav > ul > li > a:hover {
     top: -94px;
 }
 
+.services > .box > .webDevelopment > .imgWebDev > img {
+    position: relative;
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0;
+    width: 180px;
+    height: 150px;
+    top: -50px;
+    left: 48px;
+}
+
 .services > .box > .webDevelopment > .web {
+    position: relative;
     color: black;
     font-size: 25px;
     margin-bottom: 15px;
+    top: -94px;
+}
+
+.services > .box > .uiUxDesign > .imgUiUxDes > img {
+    position: relative;
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0;
+    width: 180px;
+    height: 150px;
+    top: -45px;
+    left: 48px;
 }
 
 .services > .box > .uiUxDesign > .uiUx {
+    position: relative;
     color: #ffffff;
     font-size: 25px;
     margin-bottom: 15px;
+    top: -90px;
 }
 
 .services > .box > .appDevelopment > .praApp p {
@@ -721,6 +749,8 @@ section > nav > ul > li > a:hover {
     font-size: 16px;
     line-height: 27px;
     margin-bottom: 25px;
+    position: relative;
+    top: -96px;
 }
 
 .services > .box > .uiUxDesign > .praUiUx p {
@@ -728,6 +758,8 @@ section > nav > ul > li > a:hover {
     font-size: 16px;
     line-height: 27px;
     margin-bottom: 25px;
+    position: relative;
+    top: -93px;
 }
 
 
