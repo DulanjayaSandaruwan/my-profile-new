@@ -852,7 +852,7 @@ section > nav > ul > li > a:hover {
   width: 80%;
   margin: 20px auto;
   position: relative;
-  top: 130px;
+  top: 110px;
 }
 
 .education > .timeline:before {
@@ -899,10 +899,10 @@ section > nav > ul > li > a:hover {
   font-size: 12px;
   font-weight: 900;
   text-transform: uppercase;
-  background: #25303B;
+  background: #29293F;
   color: rgba(255,255,255,0.5);
   border: 2px solid rgba(255,255,255,0.2);
-  box-shadow: 0 0 0 7px #25303B;
+  box-shadow: 0 0 0 7px #29293F;
 }
 
 .education > .timeline article div.inner span.date span {
@@ -946,10 +946,11 @@ section > nav > ul > li > a:hover {
 .education > .timeline article div.inner p {
   padding: 15px;
   margin: 0;
-  font-size: 14px;
+  font-size: 18px;
   background: #fff;
-  color: #656565;
+  color: rgba(0, 0, 0, 0.747);
   border-radius: 0 0 6px 6px;
+  box-shadow: 7px 7px 12px 0 #928c8c;
 }
 
 .education > .timeline article:nth-child(2n+2) div.inner {
@@ -982,4 +983,37 @@ section > nav > ul > li > a:hover {
 
 .education > .timeline article:nth-child(3) div.inner h2:after {
   background: #FF415B;
+}
+
+.education > .educationQuote {
+    position: absolute;
+    width: 450px;
+    height: 45px;
+    right: 420px;
+    bottom: 50px;
+    margin: auto;
+    background-color: #33334F;
+    border-radius: 0 30px 0 30px;
+    animation-name: up-down;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+@keyframes up-down {
+    from{
+    }
+    to{
+        bottom: 10px;
+    }
+}
+
+.education > .educationQuote > p {
+    position: relative;
+    width: 400px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 12px;
+    margin-left: 28px;
+    color: #ffffff;
 }
