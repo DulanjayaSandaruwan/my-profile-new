@@ -643,6 +643,7 @@ section > nav > ul > li > a:hover {
     text-align: center;
     transition: all 0.1s;
     cursor: pointer;
+    box-shadow: 7px 7px 12px 0 #928c8c;
 }
 
 .services > .box > .webDevelopment {
@@ -657,6 +658,7 @@ section > nav > ul > li > a:hover {
     text-align: center;
     transition: all 0.1s;
     cursor: pointer;
+    box-shadow: 7px 7px 12px 0 #928c8c;
 }
 
 .services > .box > .uiUxDesign {
@@ -671,6 +673,7 @@ section > nav > ul > li > a:hover {
     text-align: center;
     transition: all 0.1s;
     cursor: pointer;
+    box-shadow: 7px 7px 12px 0 #928c8c;
 }
 
 .services > .box > .card:hover {
@@ -1046,16 +1049,16 @@ section > nav > ul > li > a:hover {
     color: rgba(128, 128, 128, 0.23);
 }
 
-.projects-box{
+.projects-box {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     position: absolute;
-    top: 130px;
+    top: 115px;
 }
 
-.my-projects{
+.my-projects {
     margin: 15px;
 }
 
@@ -1063,7 +1066,7 @@ section > nav > ul > li > a:hover {
     background-color: transparent;
     width: 250px;
     height: 200px;
-    border: 1px solid #f1f1f1;  
+    border: 1px solid #ffffff;  
     border-radius: 10px;
     perspective: 1000px;
     box-shadow: 7px 7px 12px 0 #928c8c;
@@ -1100,24 +1103,56 @@ section > nav > ul > li > a:hover {
 }
 
 .flip-box-front {
-    background-color: #fff;
+    background-color: #ffffff;
     color: black;
     border-radius: 10px;
 }
 
-.flip-box-front img{
-    height: 50px;
-    width: 50px;
+.flip-box-front img {
+    height: 180px;
+    width: 260px;
+    position: absolute;
+    top: 20px;
+}
+
+.flip-box-front h2 {
+    font-size: 15px;
+    position: absolute;
+    top: 2px;
+    color: rgba(0, 0, 0, 0.795);
 }
 
 .flip-box-back {
     background-color: #ffffff;
-    color: #000;
     transform: rotateY(180deg);
     border-radius: 10px;
     padding: 16px;
 }
 
+.flip-box-back > p {
+    color: rgba(0, 0, 0, 0.733);
+    font-size: 16px;
+}
+
+.flip-box-back > .btnViewProjects {
+    position: absolute;
+    inset: 240px 0 0 0;
+    margin: auto;
+    width: 120px;
+    height: 32px;
+    bottom: 80px;
+    border-radius: 20px;
+    background-color: #FF415B;
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+.flip-box-back > .btnViewProjects:hover {
+    background-color: transparent;
+    border: 2px solid #FF415B;
+    color: black;
+}
 
 /*--------------------------End Projects------------------------------*/
 
