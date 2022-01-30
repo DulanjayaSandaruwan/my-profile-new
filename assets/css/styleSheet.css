@@ -1129,26 +1129,29 @@ section > nav > ul > li > a:hover {
     padding: 16px;
 }
 
-.flip-box-back > p {
+.flip-box-back > p:nth-child(1){
     color: rgba(0, 0, 0, 0.733);
     font-size: 16px;
 }
 
-.flip-box-back > .btnViewProjects {
+.flip-box-back > p:nth-child(2) > .buttonReadMore {
     position: absolute;
     inset: 240px 0 0 0;
     margin: auto;
-    width: 120px;
-    height: 32px;
+    width: 65px;
+    height: 15px;
     bottom: 80px;
     border-radius: 20px;
     background-color: #FF415B;
+    text-decoration: none;
     color: white;
+    font-size: 14px;
+    padding: 9px 22px;
     border: 0;
     cursor: pointer;
 }
 
-.flip-box-back > .btnViewProjects:hover {
+.flip-box-back > p:nth-child(2) > .buttonReadMore:hover {
     background-color: transparent;
     border: 2px solid #FF415B;
     color: black;
