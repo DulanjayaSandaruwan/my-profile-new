@@ -849,8 +849,100 @@ body > main > div > button:hover {
     color: rgba(128, 128, 128, 0.23);
 }
 
+.skills > .skillSet {
+    position: absolute;
+    display: grid;
+    grid-gap: 16px;
+    padding: 16px;
+    top: 120px;
+    grid-template-columns: repeat(2, 1fr);
+}
 
+.skills > .skillSet > .frontendSet {
+    position: absolute;
+    width: 300px;
+    background-color: #ffffff;
+    padding: 24px;
+    border-radius: 16px;  
+    box-shadow: 7px 7px 12px 0 #928c8c;
+    left: 250px;
+}
 
+/* .skills > .skillSet > .frontendSet:hover {
+    background-color: #928c8c;
+    color: red;
+} */
+
+.skills > .skillSet > .frontendSet span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    background-color: #FF415B;
+    color: #ffffff;
+    border-radius: 30%;
+    margin-inline: auto;
+}
+
+.skills > .skillSet > .frontendSet > header {
+    padding-block: 20px;
+    font-size: 20px;
+    color: #FF415B;
+    text-align: center;
+}
+
+.skills > .skillSet > .frontendSet .list {
+    padding-block: 8px;
+    display: grid;
+    grid-template-columns: 1fr 28px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.76);
+}
+
+.skills > .skillSet > .backendSet {
+    position: absolute;
+    width: 300px;
+    background-color: #ffffff;
+    padding: 24px;
+    border-radius: 16px;  
+    box-shadow: 7px 7px 12px 0 #928c8c;
+    left: 680px;
+}
+
+/* .skills > .skillSet > .backendSet:hover {
+    background-color: #928c8c;
+    color: red;
+} */
+
+.skills > .skillSet > .backendSet span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    background-color: #5E69DF;
+    color: #ffffff;
+    border-radius: 30%;
+    margin-inline: auto;
+}
+
+.skills > .skillSet > .backendSet > header {
+    padding-block: 20px;
+    font-size: 20px;
+    color: #5E69DF;
+    text-align: center;
+}
+
+.skills > .skillSet > .backendSet .list {
+    padding-block: 8px;
+    display: grid;
+    grid-template-columns: 1fr 28px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.76);
+}
 
 /*--------------------------End Skills-------------------------------*/
 
