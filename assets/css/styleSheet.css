@@ -88,9 +88,8 @@ body > main > div > button {
 }
 
 body > main > div > button:hover {
-    background-color: transparent;
-    border: 2px solid #F1C40F;
-    color: black;
+    background-color: #FF415B;
+    color: #ffffff;
     cursor: pointer;
 }
 
