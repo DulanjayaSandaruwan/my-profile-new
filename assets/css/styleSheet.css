@@ -1439,9 +1439,109 @@ body > main > div > button:hover {
 }
 
 
-
-
 /*--------------------------End Assignment------------------------------*/
 
+/*--------------------------Start Portfolio----------------------------*/
+
+.portFolio {
+    position: relative;
+    background-color: #E5E5E5;
+    width: 100%;
+    height: 100vh;
+}
+
+.portFolio > .topicPortfolio {
+    position: absolute;
+    left: 70px;
+    top: 50px;
+    color: #33334F;
+    font-family: -apple-system, serif;
+    font-size: 15px;
+}
+
+.portFolio > .dotsImage {
+    position: absolute;
+    left: 46px;
+    top: 68px;
+    font-size: 31px;
+    color: rgba(128, 128, 128, 0.23);
+}
+
+.portFolio > .image1Container {
+    position: absolute;
+    top: 181px;
+    left: 118px;
+    margin: auto;
+    width: 40px;
+}
+
+.portFolio > .image1Container > .image1 {
+    position: absolute;
+    width: 405px;
+    height: 362px;
+    object-fit: cover;
+    background-position: center;
+    box-shadow: 0 10px 10px 1px #928c8c;
+}
+
+.portFolio > .image2Container {
+    position: absolute;
+    top: 152px;
+    left: 650px;
+    margin: auto;
+}
+
+.portFolio > .image2Container > .image2 {
+    position: absolute;
+    width: 215px;
+    height: 171px;
+    object-fit: cover;
+    box-shadow: 0 10px 10px 1px #928c8c;
+}
+
+.portFolio > .image3Container {
+    position: absolute;
+    top: 152px;
+    left: 940px;
+    margin: auto;
+}
+
+.portFolio > .image3Container > .image3 {
+    position: absolute;
+    width: 215px;
+    height: 171px;
+    object-fit: cover;
+    box-shadow: 0 10px 10px 1px #928c8c;
+}
+
+.portFolio > .image4Container {
+    position: absolute;
+    top: 386px;
+    left: 650px;
+}
+
+.portFolio > .image4Container > .image4 {
+    position: absolute;
+    width: 215px;
+    height: 171px;
+    object-fit: cover;
+    box-shadow: 0 10px 10px 1px #928c8c;
+}
+
+.portFolio > .image5Container {
+    position: absolute;
+    top: 386px;
+    left: 940px;
+}
+
+.portFolio > .image5Container > .image5 {
+    position: absolute;
+    width: 215px;
+    height: 171px;
+    object-fit: cover;
+    box-shadow: 0 10px 10px 1px #928c8c;
+}
+
+/*--------------------------End Portfolio----------------------------*/
 
 
