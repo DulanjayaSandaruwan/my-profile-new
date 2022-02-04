@@ -1469,10 +1469,15 @@ body > main > div > button:hover {
 
 .portFolio > .image1Container {
     position: absolute;
-    top: 181px;
+    top: 160px;
     left: 118px;
     margin: auto;
     width: 40px;
+}
+
+.portFolio > .image1Container:hover {
+    transform: translateY(15px);
+    transition: all 0.4s ease-out;
 }
 
 .portFolio > .image1Container > .image1 {
@@ -1486,9 +1491,14 @@ body > main > div > button:hover {
 
 .portFolio > .image2Container {
     position: absolute;
-    top: 152px;
+    top: 145px;
     left: 650px;
     margin: auto;
+}
+
+.portFolio > .image2Container:hover {
+    transform: translateY(15px);
+    transition: all 0.4s ease-out;
 }
 
 .portFolio > .image2Container > .image2 {
@@ -1501,9 +1511,14 @@ body > main > div > button:hover {
 
 .portFolio > .image3Container {
     position: absolute;
-    top: 152px;
+    top: 145px;
     left: 940px;
     margin: auto;
+}
+
+.portFolio > .image3Container:hover {
+    transform: translateY(15px);
+    transition: all 0.4s ease-out;
 }
 
 .portFolio > .image3Container > .image3 {
@@ -1516,8 +1531,13 @@ body > main > div > button:hover {
 
 .portFolio > .image4Container {
     position: absolute;
-    top: 386px;
+    top: 375px;
     left: 650px;
+}
+
+.portFolio > .image4Container:hover {
+    transform: translateY(15px);
+    transition: all 0.4s ease-out;
 }
 
 .portFolio > .image4Container > .image4 {
@@ -1530,8 +1550,13 @@ body > main > div > button:hover {
 
 .portFolio > .image5Container {
     position: absolute;
-    top: 386px;
+    top: 375px;
     left: 940px;
+}
+
+.portFolio > .image5Container:hover {
+    transform: translateY(15px);
+    transition: all 0.4s ease-out;
 }
 
 .portFolio > .image5Container > .image5 {
@@ -1544,4 +1569,63 @@ body > main > div > button:hover {
 
 /*--------------------------End Portfolio----------------------------*/
 
+/*--------------------------Start Contact---------------------------*/
 
+.contactMe {
+    position: relative;
+    background-color: #E5E5E5;
+    width: 100%;
+    height: 100vh;
+}
+
+.contactMe > .topicContactMe {
+    position: absolute;
+    left: 70px;
+    top: 50px;
+    color: #33334F;
+    font-family: -apple-system, serif;
+    font-size: 15px;
+}
+
+.contactMe > .dotsImage {
+    position: absolute;
+    left: 46px;
+    top: 68px;
+    font-size: 31px;
+    color: rgba(128, 128, 128, 0.23);
+}
+
+.contactMe > .contactContainer > .contactTitle {
+    position: relative;
+    top: 120px;
+    color: rgba(0, 0, 0, 0.678);
+    text-align: center;
+    font-size: 16px;
+}
+
+.contactMe > .contactContainer > .contactSubTitle {
+    position: relative;
+    top: 120px;
+    color: rgba(0, 0, 0, 0.404);
+    text-align: center;
+    font-size: 13px;
+}
+
+/*--------------------------End Contact----------------------------*/
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #FF415B;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #F9CF51;
+  }
