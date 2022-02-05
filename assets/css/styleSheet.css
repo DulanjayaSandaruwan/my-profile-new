@@ -1614,6 +1614,8 @@ body > main > div > button:hover {
 
 /*--------------------------End Contact----------------------------*/
 
+/*--------------------------Ridght side scrrol bar----------------------------*/
+
 ::-webkit-scrollbar {
     width: 10px;
   }
