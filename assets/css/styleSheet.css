@@ -1789,7 +1789,7 @@ body > main > div > button:hover {
     margin: auto;
     width: 450px;
     height: 35px;
-    background-color: #33334F;
+    background-color: #FF415B;
     border: 0;
     border-radius: 10px;
     overflow: hidden;
@@ -1849,7 +1849,7 @@ body > main > div > button:hover {
     top: 470px;
     width: 450px;
     height: 450px;
-    border: 2px solid #29293F;
+    border: 1px solid #29293F;
     box-shadow: 7px 7px 12px 0 #928c8c;
 }
 
@@ -1866,7 +1866,7 @@ footer{
     height: auto;
     width: 100%;
     font-family: "Open Sans";
-    padding-top: 40px;
+    padding-top: 30px;
     color: #fff;
 }
 
