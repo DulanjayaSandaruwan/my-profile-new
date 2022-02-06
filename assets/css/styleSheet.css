@@ -1836,7 +1836,7 @@ body > main > div > button:hover {
     transform: rotate(90deg);
     width: 470px;
     height: 1px;
-    background-color: rgba(0, 0, 0, 0.295);
+    background-color: rgba(0, 0, 0, 0.089);
     border-radius: 10px;
     content: "";
     top: 700px;
@@ -1846,16 +1846,101 @@ body > main > div > button:hover {
 .contactMe > .locationMap {
     position: absolute;
     left: 750px;
-    top: 480px;
+    top: 470px;
     width: 450px;
     height: 450px;
-    border: 1px solid #29293F;
+    border: 2px solid #29293F;
     box-shadow: 7px 7px 12px 0 #928c8c;
 }
 
 /*--------------------------End Contact----------------------------*/
 
-/*--------------------------Ridght side scrrol bar----------------------------*/
+/*--------------------------Start Page Footer----------------------------*/
+
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #33334F;
+    height: auto;
+    width: 100%;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.socials a i{
+    font-size: 16px;
+    transition: color .4s ease;
+
+}
+
+.socials a:hover i{
+    color: #F1C40F;
+}
+
+.footer-bottom{
+    background: #29293F;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+/*--------------------------End Page Footer----------------------------*/
+
+/*--------------------------Ridght side scrol bar----------------------------*/
 
 ::-webkit-scrollbar {
     width: 10px;
