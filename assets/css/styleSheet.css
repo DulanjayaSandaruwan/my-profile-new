@@ -1691,7 +1691,7 @@ body > main > div > button:hover {
 
 .contactMe > .formContainer > .content > .name::placeholder {
     color: rgba(0, 0, 0, 0.603);
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .contactMe > .formContainer > .content > .name:focus {
@@ -1716,7 +1716,7 @@ body > main > div > button:hover {
 
 .contactMe > .formContainer > .content > .email::placeholder {
     color: rgba(0, 0, 0, 0.603);
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .contactMe > .formContainer > .content > .email:focus {
@@ -1741,7 +1741,7 @@ body > main > div > button:hover {
 
 .contactMe > .formContainer > .content > .subject::placeholder {
     color: rgba(0, 0, 0, 0.603);
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .contactMe > .formContainer > .content > .subject:focus {
@@ -1766,7 +1766,7 @@ body > main > div > button:hover {
 
 .contactMe > .formContainer > .content > .messageBox::placeholder {
     color: rgba(0, 0, 0, 0.603);
-    font-size: 20px;
+    font-size: 15px;
     position: absolute;
     left: 0;
     right: 0;
@@ -1813,7 +1813,7 @@ body > main > div > button:hover {
     top: 0;
     margin: auto;
     height: max-content;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .contactMe > .formContainer .sendBtn .fa {
