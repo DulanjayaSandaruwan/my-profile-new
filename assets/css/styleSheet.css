@@ -1,6 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300&display=swap');
 
+.cursor-1.active{
+    height: 4rem;
+    width: 4rem;
+    opacity: .3;
+}
+
+.cursor-1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0.8rem;
+    width: 0.8rem;
+    background-color: #F1C40F;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 10000;
+}
+
+.cursor-2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 3rem;
+    width: 3rem;
+    border: .1rem solid #F1C40F;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 10000;
+    transition: 0.2s linear;
+}
+
+.cursor-2.active{
+    display: none;
+}
 
 /*--------------------------Start header--------------------------------*/
 

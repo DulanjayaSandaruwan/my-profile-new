@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2315b9b9-6f87-4eca-8db2-b7409dc0b3b9" name="Changes" comment="add new section">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/styleSheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styleSheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -13,9 +14,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -171,6 +172,9 @@
       <workItem from="1642845046556" duration="4000" />
       <workItem from="1643287179577" duration="615000" />
       <workItem from="1643975972534" duration="72000" />
+      <workItem from="1646224348718" duration="96000" />
+      <workItem from="1646455246515" duration="49000" />
+      <workItem from="1646546997394" duration="609000" />
     </task>
     <task id="LOCAL-00001" summary="add new section">
       <created>1642580494269</created>
