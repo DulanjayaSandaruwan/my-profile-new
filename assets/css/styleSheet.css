@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300&display=swap');
 
+body{
+    overflow-x: hidden;
+}
+
 /*----customize cursor style----*/
 .cursor-1.active{
     height: 2rem;
