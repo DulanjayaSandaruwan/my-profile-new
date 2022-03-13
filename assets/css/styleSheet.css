@@ -1,663 +1,662 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300&display=swap");
 
-body{
-    overflow-x: hidden;
+body {
+  overflow-x: hidden;
 }
 
 /*----customize cursor style----*/
-.cursor-1.active{
-    height: 2rem;
-    width: 2rem;
-    opacity: .3;
+.cursor-1.active {
+  height: 2rem;
+  width: 2rem;
+  opacity: 0.3;
 }
 
-.cursor-1{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 0.8rem;
-    width: 0.8rem;
-    background-color: #F1C40F;
-    pointer-events: none;
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
-    z-index: 10000;
+.cursor-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0.8rem;
+  width: 0.8rem;
+  background-color: #f1c40f;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 10000;
 }
 
-.cursor-2{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 2rem;
-    width: 2rem;
-    border: .1rem solid #F1C40F;
-    pointer-events: none;
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
-    z-index: 10000;
-    transition: 0.2s linear;
+.cursor-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  width: 2rem;
+  border: 0.1rem solid #f1c40f;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 10000;
+  transition: 0.2s linear;
 }
 
-.cursor-2.active{
-    display: none;
+.cursor-2.active {
+  display: none;
 }
 
 /*--------------------------Start header--------------------------------*/
 
 #header {
-    position: fixed;
-    width: 100%;
-    height: 45px;
-    z-index: 2;
-    background-color: #33334F;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.22);
+  position: fixed;
+  width: 100%;
+  height: 45px;
+  z-index: 2;
+  background-color: #33334f;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.22);
 }
 
 #header > section {
-    position: relative;
-    height: 50px;
-    margin-left: 25px;
-    margin-right: 25px;
+  position: relative;
+  height: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 #header > section > div {
-    position: absolute;
-    top: 5px;
-    width: 150px;
-    height: 35px;
+  position: absolute;
+  top: 5px;
+  width: 150px;
+  height: 35px;
 }
 
 #header > section > .signature > h3 {
-    position: absolute;
-    font-size: 30px;
-    left: 0;
-    top: 1px;
-    margin: auto;
-    color: white;
+  position: absolute;
+  font-size: 30px;
+  left: 0;
+  top: 1px;
+  margin: auto;
+  color: white;
 }
 
 #header > section > .signature > h3 > span:nth-child(1) > span {
-    color: #FF415B !important;
+  color: #ff415b !important;
 }
 
 header > section > nav > ul {
-    position: absolute;
-    margin: auto;
-    top: 15px;
-    right: 0;
-    list-style: none;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
-        'Helvetica Neue', sans-serif;
+  position: absolute;
+  margin: auto;
+  top: 15px;
+  right: 0;
+  list-style: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 section > nav > ul > li {
-    display: inline-block;
-    padding-left: 20px;
+  display: inline-block;
+  padding-left: 20px;
 }
 
 section > nav > ul > li > a {
-    color: white;
-    font-size: 16px;
-    text-decoration: none;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
 }
 
 section > nav > ul > li > a:hover {
-    color: #F9CF51;
+  color: #f9cf51;
 }
 
 body > main > div {
-    position: fixed;
-    width: 100px;
-    height: 40px;
-    border-radius: 30px;
-    right: 30px;
-    bottom: 40px;
-    transform: translateX(0%);
-    z-index: 3;
+  position: fixed;
+  width: 100px;
+  height: 40px;
+  border-radius: 30px;
+  right: 30px;
+  bottom: 40px;
+  transform: translateX(0%);
+  z-index: 3;
 }
 
 body > main > div > button {
-    position: relative;
-    width: 100%;
-    height: 68%;
-    background-color: #F1C40F;
-    border-radius: 101px;
-    border: 0;
-    cursor: pointer;
-    transition: all 0.5s;
+  position: relative;
+  width: 100%;
+  height: 68%;
+  background-color: #f1c40f;
+  border-radius: 101px;
+  border: 0;
+  cursor: pointer;
+  transition: all 0.5s;
 }
 
 body > main > div > button:hover {
-    background-color: #FF415B;
-    color: #ffffff;
-    cursor: pointer;
+  background-color: #ff415b;
+  color: #ffffff;
+  cursor: pointer;
 }
 
 /*--------------------------Start Home--------------------------------*/
 
 .home {
-    position: relative;
-    background-color: #33334F;
-    width: 100%;
-    height: 100vh;
+  position: relative;
+  background-color: #33334f;
+  width: 100%;
+  height: 100vh;
 }
 
 .home > .profilePicture {
-    position: absolute;
-    width: 250px;
-    height: 250px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: -150px;
-    margin: auto;
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: -150px;
+  margin: auto;
 }
 
 .home > .profilePicture > img {
-    position: relative;
-    width: 100%;
-    height: 100%;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 .home > .textContainer {
-    position: absolute;
-    bottom: 0;
-    top: 155px;
-    left: 0;
-    right: 0;
-    margin: auto;
-    height: max-content;
-    width: 325px;
-    line-height: 5px;
+  position: absolute;
+  bottom: 0;
+  top: 155px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: max-content;
+  width: 325px;
+  line-height: 5px;
 }
 
 .home > .textContainer > .txtMyName {
-    font-size: 30px;
-    color: white;
-    letter-spacing: 1px;
+  font-size: 30px;
+  color: white;
+  letter-spacing: 1px;
 }
 
 .home > .textContainer > .txtIAm {
-    font-size: 20px;
-    font-weight: normal;
-    color: white;
-    margin-left: 45px;
+  font-size: 20px;
+  font-weight: normal;
+  color: white;
+  margin-left: 45px;
 }
 
 .home > .textContainer > .socialLinks {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    width: 200px;
-    height: 20px;
-    margin-left: 64px;
-    top: 25px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  height: 20px;
+  margin-left: 64px;
+  top: 25px;
 }
 
-.home > .textContainer > .socialLinks a{
-    flex-grow: 1;
+.home > .textContainer > .socialLinks a {
+  flex-grow: 1;
 }
 
 .home > .textContainer > .socialLinks a i {
-    font-size: 20px;
-    color: white;
+  font-size: 20px;
+  color: white;
 }
 
 .home > .textContainer > .btnHireMe {
-    position: absolute;
-    inset: 240px 0 0 0;
-    margin: auto;
-    width: 100px;
-    height: 32px;
-    border-radius: 20px;
-    background-color: #FF415B;
-    color: white;
-    border: 0;
-    cursor: pointer;
+  position: absolute;
+  inset: 240px 0 0 0;
+  margin: auto;
+  width: 100px;
+  height: 32px;
+  border-radius: 20px;
+  background-color: #ff415b;
+  color: white;
+  border: 0;
+  cursor: pointer;
 }
 
 .home > .textContainer > .btnHireMe:hover {
-    background-color: transparent;
-    border: 2px solid #FF415B;
-    color: white;
+  background-color: transparent;
+  border: 2px solid #ff415b;
+  color: white;
 }
 
 .home > .textContainer > .scrollDown {
-    position: absolute;
-    inset: 400px 0 0 0;
-    margin: auto;
-    width: 76px;
-    height: 32px;
-    color: rgba(255, 255, 255, 0.7);
-    font-size: 14px;
+  position: absolute;
+  inset: 400px 0 0 0;
+  margin: auto;
+  width: 76px;
+  height: 32px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
 }
 
 .home > .textContainer > .fas {
-    position: absolute;
-    inset: 400px 0 0 0;
-    margin: auto;
-    width: 22px;
-    color: rgba(255, 255, 255, 0.7);
-    font-size: 14px;
+  position: absolute;
+  inset: 400px 0 0 0;
+  margin: auto;
+  width: 22px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
 }
 
 .home > .shapes1 {
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    background-image: url("../images/shapes/small icon-01.png");
-    top: 30px;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-image: url("../images/shapes/small icon-01.png");
+  top: 30px;
 }
 
 .home > .shapes2 {
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    background-image: url("../images/shapes/small icon-03.png");
-    top: 85px;
-    left: 270px;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-image: url("../images/shapes/small icon-03.png");
+  top: 85px;
+  left: 270px;
 }
 
 .home > .shapes3 {
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    background-image: url("../images/shapes/small icon-04.png");
-    top: 220px;
-    left: 80px;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-image: url("../images/shapes/small icon-04.png");
+  top: 220px;
+  left: 80px;
 }
 
 .home > .shapes4 {
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    background-image: url("../images/shapes/small icon-02.png");
-    top: 315px;
-    left: 360px;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-image: url("../images/shapes/small icon-02.png");
+  top: 315px;
+  left: 360px;
 }
 
 .home > .shapes5 {
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    background-image: url("../images/shapes/small icon-08.png");
-    top: 540px;
-    left: 270px;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-image: url("../images/shapes/small icon-08.png");
+  top: 540px;
+  left: 270px;
 }
 
 .home > .shapes6 {
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    background-image: url("../images/shapes/small icon-13.png");
-    top: 450px;
-    left: 60px;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-image: url("../images/shapes/small icon-13.png");
+  top: 450px;
+  left: 60px;
 }
 
 .home > .shapes7 {
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    background-image: url("../images/shapes/small icon-05.png");
-    top: 60px;
-    left: 1082px;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-image: url("../images/shapes/small icon-05.png");
+  top: 60px;
+  left: 1082px;
 }
 
 .home > .shapes8 {
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    background-image: url("../images/shapes/small icon-02.png");
-    top: 90px;
-    left: 800px;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-image: url("../images/shapes/small icon-02.png");
+  top: 90px;
+  left: 800px;
 }
 
 .home > .shapes9 {
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    background-image: url("../images/shapes/small icon-06.png");
-    top: 320px;
-    left: 860px;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-image: url("../images/shapes/small icon-06.png");
+  top: 320px;
+  left: 860px;
 }
 
 .home > .shapes10 {
-    position: absolute;
-    width: 72px;
-    height: 70px;
-    background-image: url("../images/shapes/small icon-11.png");
-    top: 300px;
-    left: 1180px;
+  position: absolute;
+  width: 72px;
+  height: 70px;
+  background-image: url("../images/shapes/small icon-11.png");
+  top: 300px;
+  left: 1180px;
 }
 
 .home > .shapes11 {
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    background-image: url("../images/shapes/small icon-04.png");
-    top: 536px;
-    left: 1190px;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-image: url("../images/shapes/small icon-04.png");
+  top: 536px;
+  left: 1190px;
 }
 
 .home > .shapes12 {
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    background-image: url("../images/shapes/small icon-14.png");
-    top: 520px;
-    left: 770px;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-image: url("../images/shapes/small icon-14.png");
+  top: 520px;
+  left: 770px;
 }
 
 /*--------------------------End Home--------------------------------*/
 
-
 /*--------------------------Start About me--------------------------------*/
 
 .aboutMe {
-    position: relative;
-    background-color: #E5E5E5;
-    width: 100%;
-    height: 100vh;
+  position: relative;
+  background-color: #e5e5e5;
+  width: 100%;
+  height: 100vh;
 }
 
 .aboutMe > .topicAboutMe {
-    position: absolute;
-    left: 70px;
-    top: 50px;
-    color: #33334F;
-    font-family: -apple-system, serif;
-    font-size: 15px;
+  position: absolute;
+  left: 70px;
+  top: 50px;
+  color: #33334f;
+  font-family: -apple-system, serif;
+  font-size: 15px;
 }
 
 .aboutMe > .dotsImage {
-    position: absolute;
-    left: 46px;
-    top: 68px;
-    font-size: 31px;
-    color: rgba(128, 128, 128, 0.23);
+  position: absolute;
+  left: 46px;
+  top: 68px;
+  font-size: 31px;
+  color: rgba(128, 128, 128, 0.23);
 }
 
 .aboutMe > .aboutMePicture {
-    position: absolute;
-    width: 250px;
-    height: 250px;
-    left: 10px;
-    top: 105px;
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  left: 10px;
+  top: 105px;
 }
 
 .aboutMe > .aboutMePicture > img {
-    position: relative;
-    width: 100%;
-    height: 100%;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 .aboutMe > .txtAboutMe {
-    position: absolute;
-    background-color: #ffffff;
-    width: 68%;
-    height: 35%;
-    border-radius: 20px;
-    box-shadow: 7px 7px 12px 0 #928c8c;
-    top: 145px;
-    left: 290px;
+  position: absolute;
+  background-color: #ffffff;
+  width: 68%;
+  height: 35%;
+  border-radius: 20px;
+  box-shadow: 7px 7px 12px 0 #928c8c;
+  top: 145px;
+  left: 290px;
 }
 
 .aboutMe > .txtAboutMe:before {
-    content: "";
-    width: 0;
-    height: 0;
-    position: absolute;
-    border-left: 10px solid transparent;
-    border-right: 10px solid #ffffff;
-    border-top: 10px solid #ffffff;
-    border-bottom: 10px solid transparent;
-    left: -19px;
-    top: 20px;
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid #ffffff;
+  border-top: 10px solid #ffffff;
+  border-bottom: 10px solid transparent;
+  left: -19px;
+  top: 20px;
 }
 
 .aboutMe > .txtAboutMe > .txtMyDetails {
-    position: relative;
-    padding: 10px;
-    max-width: 400px;
-    line-height: 28px;
-    left: 26px;
-    top: -4px;
-    color: rgba(0, 0, 0, 0.78);
+  position: relative;
+  padding: 10px;
+  max-width: 400px;
+  line-height: 28px;
+  left: 26px;
+  top: -4px;
+  color: rgba(0, 0, 0, 0.78);
 }
 
 .aboutMe > .txtAboutMe > .btnDownloadCv {
-    position: relative;
-    width: 128px;
-    height: 32px;
-    border-radius: 20px;
-    background-color: #FF415B;
-    color: white;
-    border: 0;
-    cursor: pointer;
-    top: -24px;
-    left: 33px;
+  position: relative;
+  width: 128px;
+  height: 32px;
+  border-radius: 20px;
+  background-color: #ff415b;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  top: -24px;
+  left: 33px;
 }
 
 .aboutMe > .txtAboutMe > .btnDownloadCv:hover {
-    background-color: transparent;
-    border: 2px solid #FF415B;
-    color: black;
+  background-color: transparent;
+  border: 2px solid #ff415b;
+  color: black;
 }
 
 .aboutMe > .txtAboutMe > .container-skills {
-    position: relative;
-    margin: 20px auto 0 auto;
-    max-width: 400px;
-    top: -224px;
-    left: 214px;
-    line-height: 2;
+  position: relative;
+  margin: 20px auto 0 auto;
+  max-width: 400px;
+  top: -224px;
+  left: 214px;
+  line-height: 2;
 }
 
 .bar {
-    position: relative;
-    background-color: #E5E5E5;
-    height: 10px;
-    margin: 0 0 20px 0;
+  position: relative;
+  background-color: #e5e5e5;
+  height: 10px;
+  margin: 0 0 20px 0;
 }
 
 .bar-fill {
-    position: absolute;
-    height: 10px;
+  position: absolute;
+  height: 10px;
 }
 
 .bar-title {
-    position: relative;
-    font-size: 15px;
-    text-align: left;
-    margin: 0 0 5px 0;
+  position: relative;
+  font-size: 15px;
+  text-align: left;
+  margin: 0 0 5px 0;
 }
 
 .percent {
-    position: absolute;
-    right: 0;
+  position: absolute;
+  right: 0;
 }
 
 .bar-fill-java {
-    width: 90%;
-    background-color: #F9CF51;
-    animation:bar-fill-java 2s ease-out;
-    -moz-animation: bar-fill-java 2s ease-out;
-    -webkit-animation: bar-fill-java 2s ease-out;
+  width: 90%;
+  background-color: #f9cf51;
+  animation: bar-fill-java 2s ease-out;
+  -moz-animation: bar-fill-java 2s ease-out;
+  -webkit-animation: bar-fill-java 2s ease-out;
 }
 
 @keyframes bar-fill-java {
-    0% {
-        width: 0;
-    }
+  0% {
+    width: 0;
+  }
 
-    100% {
-        width: 90%;
-    }
+  100% {
+    width: 90%;
+  }
 }
 
 @-moz-keyframes bar-fill-java {
-    0% {
-        width: 0;
-    }
+  0% {
+    width: 0;
+  }
 
-    100% {
-        width: 90%;
-    }
+  100% {
+    width: 90%;
+  }
 }
 
 @-webkit-keyframes bar-fill-java {
-    0% {
-        width: 0;
-    }
+  0% {
+    width: 0;
+  }
 
-    100% {
-        width: 90%;
-    }
+  100% {
+    width: 90%;
+  }
 }
 
 .bar-fill-html {
-    width: 60%;
-    background-color: #FF415B;
-    animation: bar-fill-html 2s ease-out;
-    -moz-animation: bar-fill-html 2s ease-out;
-    -webkit-animation: bar-fill-html 2s ease-out;
+  width: 60%;
+  background-color: #ff415b;
+  animation: bar-fill-html 2s ease-out;
+  -moz-animation: bar-fill-html 2s ease-out;
+  -webkit-animation: bar-fill-html 2s ease-out;
 }
 
 @keyframes bar-fill-html {
-    0% {
-        width: 0;
-    }
+  0% {
+    width: 0;
+  }
 
-    100% {
-        width: 60%;
-    }
+  100% {
+    width: 60%;
+  }
 }
 
 @-moz-keyframes bar-fill-html {
-    0% {
-        width: 0;
-    }
+  0% {
+    width: 0;
+  }
 
-    100% {
-        width: 60%;
-    }
+  100% {
+    width: 60%;
+  }
 }
 
 @-webkit-keyframes bar-fill-html {
-    0% {
-        width: 0;
-    }
+  0% {
+    width: 0;
+  }
 
-    100% {
-        width: 60%;
-    }
+  100% {
+    width: 60%;
+  }
 }
 
-.bar-fill-mysql{
-    width: 70%;
-    background-color: #5E69DF;
-    animation: bar-fill-mysql 2s ease-out;
-    -moz-animation: bar-fill-mysql 2s ease-out;
-    -webkit-animation: bar-fill-mysql 2s ease-out;
+.bar-fill-mysql {
+  width: 70%;
+  background-color: #5e69df;
+  animation: bar-fill-mysql 2s ease-out;
+  -moz-animation: bar-fill-mysql 2s ease-out;
+  -webkit-animation: bar-fill-mysql 2s ease-out;
 }
 
 @keyframes bar-fill-mysql {
-    0% {
-        width: 0;
-    }
+  0% {
+    width: 0;
+  }
 
-    100% {
-        width: 70%;
-    }
+  100% {
+    width: 70%;
+  }
 }
 
 @-moz-keyframes bar-fill-mysql {
-    0% {
-        width: 0;
-    }
+  0% {
+    width: 0;
+  }
 
-    100% {
-        width: 70%;
-    }
+  100% {
+    width: 70%;
+  }
 }
 
 @-webkit-keyframes bar-fill-mysql {
-    0% {
-        width: 0;
-    }
+  0% {
+    width: 0;
+  }
 
-    100% {
-        width: 70%;
-    }
+  100% {
+    width: 70%;
+  }
 }
 
 .aboutMe > .statContainer {
-    position: absolute;
-    bottom: 210px;
-    left: 162px;
-    display: flex;
-    flex-direction: row;
+  position: absolute;
+  bottom: 210px;
+  left: 162px;
+  display: flex;
+  flex-direction: row;
 }
 
 .aboutMe > .statContainer > div {
-    position: relative;
-    width: 270px;
+  position: relative;
+  width: 270px;
 }
 
 .aboutMe > .statContainer > div > .fas {
-    position: absolute;
-    height: 100%;
-    font-size: 25px;
-    color: rgba(128, 128, 128, 0.36);
+  position: absolute;
+  height: 100%;
+  font-size: 25px;
+  color: rgba(128, 128, 128, 0.36);
 }
 
 .aboutMe > .statContainer > div > h3 {
-    position: absolute;
-    left: 43px;
-    top: -17px;
-    font-size: 19px;
-    color: rgba(0, 0, 0, 0.87);
+  position: absolute;
+  left: 43px;
+  top: -17px;
+  font-size: 19px;
+  color: rgba(0, 0, 0, 0.87);
 }
 
 .aboutMe > .statContainer > div > p {
-    position: absolute;
-    left: 41px;
-    top: 19px;
-    font-size: 16px;
-    color: rgba(0, 0, 0, 0.72);
+  position: absolute;
+  left: 41px;
+  top: 19px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.72);
 }
 
 .aboutMe > .aboutMeQuote {
-    position: absolute;
-    width: 335px;
-    height: 45px;
-    right: 460px;
-    bottom: 50px;
-    margin: auto;
-    background-color: #33334F;
-    border-radius: 0 30px 0 30px;
-    animation-name: up-down;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
-    animation-duration: 3s;
+  position: absolute;
+  width: 335px;
+  height: 45px;
+  right: 460px;
+  bottom: 50px;
+  margin: auto;
+  background-color: #33334f;
+  border-radius: 0 30px 0 30px;
+  animation-name: up-down;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
 }
 
 @keyframes up-down {
-    from{
-    }
-    to{
-        bottom: 10px;
-    }
+  from {
+  }
+  to {
+    bottom: 10px;
+  }
 }
 
 .aboutMe > .aboutMeQuote > p {
-    position: relative;
-    width: 330px;
-    text-align: center;
-    font-size: 18px;
-    margin-top: 12px;
-    color: #ffffff;
+  position: relative;
+  width: 330px;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 12px;
+  color: #ffffff;
 }
 
 /*--------------------------End About me--------------------------------*/
@@ -665,455 +664,453 @@ body > main > div > button:hover {
 /*--------------------------Start Services--------------------------------*/
 
 .services {
-    position: relative;
-    background-color: #E5E5E5;
-    width: 100%;
-    height: 100vh;
+  position: relative;
+  background-color: #e5e5e5;
+  width: 100%;
+  height: 100vh;
 }
 
 .services > .topicService {
-    position: absolute;
-    left: 70px;
-    top: 50px;
-    color: #33334F;
-    font-family: -apple-system, serif;
-    font-size: 15px;
+  position: absolute;
+  left: 70px;
+  top: 50px;
+  color: #33334f;
+  font-family: -apple-system, serif;
+  font-size: 15px;
 }
 
 .services > .dotsImage {
-    position: absolute;
-    left: 46px;
-    top: 68px;
-    font-size: 31px;
-    color: rgba(128, 128, 128, 0.23);
+  position: absolute;
+  left: 46px;
+  top: 68px;
+  font-size: 31px;
+  color: rgba(128, 128, 128, 0.23);
 }
 
 .services > .box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 300px;
-    top: 142px;
-    left: 0;
-    right: 0;
-    margin: auto;
-    position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+  top: 142px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
 }
 
 .services > .box > .appDevelopment {
-    height: 265px;
-    width: 285px;
-    padding: 20px 35px;
-    background: #5E69DF;
-    border-radius: 20px;
-    margin: 15px;
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-    transition: all 0.1s;
-    cursor: pointer;
-    box-shadow: 7px 7px 12px 0 #928c8c;
+  height: 265px;
+  width: 285px;
+  padding: 20px 35px;
+  background: #5e69df;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  transition: all 0.1s;
+  cursor: pointer;
+  box-shadow: 7px 7px 12px 0 #928c8c;
 }
 
 .services > .box > .webDevelopment {
-    height: 265px;
-    width: 285px;
-    padding: 20px 35px;
-    background: #F9CF51;
-    border-radius: 20px;
-    margin: 15px;
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-    transition: all 0.1s;
-    cursor: pointer;
-    box-shadow: 7px 7px 12px 0 #928c8c;
+  height: 265px;
+  width: 285px;
+  padding: 20px 35px;
+  background: #f9cf51;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  transition: all 0.1s;
+  cursor: pointer;
+  box-shadow: 7px 7px 12px 0 #928c8c;
 }
 
 .services > .box > .uiUxDesign {
-    height: 265px;
-    width: 285px;
-    padding: 20px 35px;
-    background: #FF415B;
-    border-radius: 20px;
-    margin: 15px;
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-    transition: all 0.1s;
-    cursor: pointer;
-    box-shadow: 7px 7px 12px 0 #928c8c;
+  height: 265px;
+  width: 285px;
+  padding: 20px 35px;
+  background: #ff415b;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  transition: all 0.1s;
+  cursor: pointer;
+  box-shadow: 7px 7px 12px 0 #928c8c;
 }
 
 .services > .box > .card:hover {
-    transition: all 0.1s;
-    transform: scale(1.05);
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+  transition: all 0.1s;
+  transform: scale(1.05);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
 }
 
 .services > .box > .appDevelopment > .imgAppDev > img {
-    position: relative;
-    font-size: 50px;
-    display: block;
-    text-align: center;
-    margin: 25px 0;
-    width: 180px;
-    height: 150px;
-    top: -50px;
-    left: 48px;
+  position: relative;
+  font-size: 50px;
+  display: block;
+  text-align: center;
+  margin: 25px 0;
+  width: 180px;
+  height: 150px;
+  top: -50px;
+  left: 48px;
 }
 
 .services > .box > .appDevelopment > .app {
-    position: relative;
-    color: #ffffff;
-    font-size: 25px;
-    margin-bottom: 15px;
-    top: -94px;
+  position: relative;
+  color: #ffffff;
+  font-size: 25px;
+  margin-bottom: 15px;
+  top: -94px;
 }
 
 .services > .box > .webDevelopment > .imgWebDev > img {
-    position: relative;
-    font-size: 50px;
-    display: block;
-    text-align: center;
-    margin: 25px 0;
-    width: 170px;
-    height: 160px;
-    top: -50px;
-    left: 48px;
+  position: relative;
+  font-size: 50px;
+  display: block;
+  text-align: center;
+  margin: 25px 0;
+  width: 170px;
+  height: 160px;
+  top: -50px;
+  left: 48px;
 }
 
 .services > .box > .webDevelopment > .web {
-    position: relative;
-    color: black;
-    font-size: 25px;
-    margin-bottom: 15px;
-    top: -94px;
+  position: relative;
+  color: black;
+  font-size: 25px;
+  margin-bottom: 15px;
+  top: -94px;
 }
 
 .services > .box > .uiUxDesign > .imgUiUxDes > img {
-    position: relative;
-    font-size: 50px;
-    display: block;
-    text-align: center;
-    margin: 25px 0;
-    width: 180px;
-    height: 130px;
-    top: -40px;
-    left: 48px;
+  position: relative;
+  font-size: 50px;
+  display: block;
+  text-align: center;
+  margin: 25px 0;
+  width: 180px;
+  height: 130px;
+  top: -40px;
+  left: 48px;
 }
 
 .services > .box > .uiUxDesign > .uiUx {
-    position: relative;
-    color: #ffffff;
-    font-size: 25px;
-    margin-bottom: 15px;
-    top: -80px;
+  position: relative;
+  color: #ffffff;
+  font-size: 25px;
+  margin-bottom: 15px;
+  top: -80px;
 }
 
 .services > .box > .appDevelopment > .praApp p {
-    color: #ffffff;
-    font-size: 16px;
-    line-height: 27px;
-    margin-bottom: 25px;
-    position: relative;
-    top: -96px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 25px;
+  position: relative;
+  top: -96px;
 }
 
 .services > .box > .webDevelopment > .praWeb p {
-    color: black;
-    font-size: 16px;
-    line-height: 27px;
-    margin-bottom: 25px;
-    position: relative;
-    top: -96px;
+  color: black;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 25px;
+  position: relative;
+  top: -96px;
 }
 
 .services > .box > .uiUxDesign > .praUiUx p {
-    color: #ffffff;
-    font-size: 16px;
-    line-height: 27px;
-    margin-bottom: 25px;
-    position: relative;
-    top: -90px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 25px;
+  position: relative;
+  top: -90px;
 }
 
 .services > .textService {
-    position: absolute;
-    bottom: 0;
-    top: 480px;
-    left: 0;
-    right: 0;
-    margin: auto;
-    height: max-content;
-    width: 420px;
-    line-height: 5px;
-    font-size: 15px;
-    color: rgba(0, 0, 0, 0.72);
+  position: absolute;
+  bottom: 0;
+  top: 480px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: max-content;
+  width: 420px;
+  line-height: 5px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.72);
 }
 
 .services > .textService > h3 > span > span {
-    color: #FF415B;
-    cursor: pointer;
+  color: #ff415b;
+  cursor: pointer;
 }
 
 .services > .textService > h3 > span > span > .fas {
-    color: #5E69DF;
+  color: #5e69df;
 }
 
 /*--------------------------End Services--------------------------------*/
 
 .hireMe {
-    position: relative;
-    background-color: #33334F;
-    width: 100%;
-    height: 30vh;
+  position: relative;
+  background-color: #33334f;
+  width: 100%;
+  height: 30vh;
 }
 
 .hireMe > .sectionText {
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    height: max-content;
-    width: 500px;
-    line-height: 30px;
-} 
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: max-content;
+  width: 500px;
+  line-height: 30px;
+}
 
 .hireMe > .sectionText > .sectiontitle {
-    margin-left: 130px;
-    color: #ffffff;
-    font-size: 20px;
+  margin-left: 130px;
+  color: #ffffff;
+  font-size: 20px;
 }
 
 .hireMe > .sectionText > .sectionSubTitle {
-    color: #ffffff;
-    font-size: 15px;
-    margin-left: 10px;
+  color: #ffffff;
+  font-size: 15px;
+  margin-left: 10px;
 }
 
 .hireMe > .sectionText > .subBtnHireMe {
-    background-color: #FF415B;
-    color: white;
-    border: 0;
-    cursor: pointer;
-    border-radius: 20px;
-    width: 90px;
-    height: 25px;
-    margin-left: 172px;
+  background-color: #ff415b;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  border-radius: 20px;
+  width: 90px;
+  height: 25px;
+  margin-left: 172px;
 }
 
 .hireMe > .sectionText > .subBtnHireMe:hover {
-    background-color: transparent;
-    border: 2px solid #FF415B;
-    color: white;
-}    
-
+  background-color: transparent;
+  border: 2px solid #ff415b;
+  color: white;
+}
 
 .hireMe > .subShapes1 {
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    background-image: url("../images/shapes/small icon-01.png");
-    top: 30px;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-image: url("../images/shapes/small icon-01.png");
+  top: 30px;
 }
 
 .hireMe > .subShapes2 {
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    background-image: url("../images/shapes/small icon-03.png");
-    top: 80px;
-    left: 180px;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-image: url("../images/shapes/small icon-03.png");
+  top: 80px;
+  left: 180px;
 }
 
 .hireMe > .subShapes3 {
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    background-image: url("../images/shapes/small icon-04.png");
-    top: 0px;
-    left: 330px;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-image: url("../images/shapes/small icon-04.png");
+  top: 0px;
+  left: 330px;
 }
 
 .hireMe > .subShapes4 {
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    background-image: url("../images/shapes/small icon-02.png");
-    top: 70px;
-    right: 10px;;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-image: url("../images/shapes/small icon-02.png");
+  top: 70px;
+  right: 10px;
 }
 
 .hireMe > .subShapes5 {
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    background-image: url("../images/shapes/small icon-05.png");
-    top: 40px;
-    right: 300px;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-image: url("../images/shapes/small icon-05.png");
+  top: 40px;
+  right: 300px;
 }
 
 /*--------------------------Start Skills-------------------------------*/
 
-
 .skills {
-    position: relative;
-    background-color: #E5E5E5;
-    width: 100%;
-    height: 100vh;
+  position: relative;
+  background-color: #e5e5e5;
+  width: 100%;
+  height: 100vh;
 }
 
 .skills > .topicSkills {
-    position: absolute;
-    left: 70px;
-    top: 50px;
-    color: #33334F;
-    font-family: -apple-system, serif;
-    font-size: 15px;
+  position: absolute;
+  left: 70px;
+  top: 50px;
+  color: #33334f;
+  font-family: -apple-system, serif;
+  font-size: 15px;
 }
 
 .skills > .dotsImage {
-    position: absolute;
-    left: 46px;
-    top: 68px;
-    font-size: 31px;
-    color: rgba(128, 128, 128, 0.23);
+  position: absolute;
+  left: 46px;
+  top: 68px;
+  font-size: 31px;
+  color: rgba(128, 128, 128, 0.23);
 }
 
 .skills > .container {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: row;
-    width: 90%;
-    height: 200px;
-    top: 100px;
-    left: 60px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 90%;
+  height: 200px;
+  top: 100px;
+  left: 60px;
 }
 
 .skills > .container > div {
-    width: 120px;
-    height: 110px;
-    border: 1px solid rgba(182, 178, 178, 0.493);
-    box-shadow: 7px 7px 12px 0 #928c8c;
-    border-radius: 0 40% 40% 40%;
-    cursor: pointer;
+  width: 120px;
+  height: 110px;
+  border: 1px solid rgba(182, 178, 178, 0.493);
+  box-shadow: 7px 7px 12px 0 #928c8c;
+  border-radius: 0 40% 40% 40%;
+  cursor: pointer;
 }
 
 .skills > .container > div:hover {
-    border: 1px solid #F1C40F;
-    transform: scale(1.08);
+  border: 1px solid #f1c40f;
+  transform: scale(1.08);
 }
 
 .skills > .container > div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .skills > .container > div img {
-    width: 80px;
+  width: 80px;
 }
 
 .skills > .tools {
-    position: absolute;
-    left: 130px;
-    top: 300px;
-    color: rgba(0, 0, 0, 0.404);
-    font-size: 14px;
+  position: absolute;
+  left: 130px;
+  top: 300px;
+  color: rgba(0, 0, 0, 0.404);
+  font-size: 14px;
 }
 
 .skills > .toolsContainer {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: row;
-    width: 90%;
-    height: 200px;
-    top: 320px;
-    left: 67px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 90%;
+  height: 200px;
+  top: 320px;
+  left: 67px;
 }
 
 .skills > .toolsContainer > div {
-    width: 100px;
-    height: 90px;
-    border: 1px solid rgba(182, 178, 178, 0.493);
-    box-shadow: 7px 7px 12px 0 #928c8c;
-    border-radius: 0 40% 40% 40%;
-    cursor: pointer;
+  width: 100px;
+  height: 90px;
+  border: 1px solid rgba(182, 178, 178, 0.493);
+  box-shadow: 7px 7px 12px 0 #928c8c;
+  border-radius: 0 40% 40% 40%;
+  cursor: pointer;
 }
 
 .skills > .toolsContainer > div:hover {
-    border: 1px solid #FF415B;
-    transform: scale(1.08);
+  border: 1px solid #ff415b;
+  transform: scale(1.08);
 }
 
 .skills > .toolsContainer > div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .skills > .toolsContainer > div img {
-    width: 85px;
+  width: 85px;
 }
 
 .toolsContainer > div:nth-child(1) > img {
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
 }
 
 .toolsContainer > div:nth-child(3) > img {
-    width: 60px;
-    height: 40px;
+  width: 60px;
+  height: 40px;
 }
 
 .toolsContainer > div:nth-child(4) > img {
-    width: 60px;
-    height: 50px;
+  width: 60px;
+  height: 50px;
 }
 
 .toolsContainer > div:nth-child(5) > img {
-    width: 30px;
-    height: 30px;
+  width: 30px;
+  height: 30px;
 }
 
 .skills > .skillsQuote {
-    position: absolute;
-    width: 450px;
-    height: 45px;
-    right: 420px;
-    bottom: 50px;
-    margin: auto;
-    background-color: #33334F;
-    border-radius: 0 30px 0 30px;
-    animation-name: up-down;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
-    animation-duration: 3s;
+  position: absolute;
+  width: 450px;
+  height: 45px;
+  right: 420px;
+  bottom: 50px;
+  margin: auto;
+  background-color: #33334f;
+  border-radius: 0 30px 0 30px;
+  animation-name: up-down;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
 }
 
 @keyframes up-down {
-    from{
-    }
-    to{
-        bottom: 10px;
-    }
+  from {
+  }
+  to {
+    bottom: 10px;
+  }
 }
 
 .skills > .skillsQuote > p {
-    position: relative;
-    width: 400px;
-    text-align: center;
-    font-size: 18px;
-    margin-top: 12px;
-    margin-left: 28px;
-    color: #ffffff;
+  position: relative;
+  width: 400px;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 12px;
+  margin-left: 28px;
+  color: #ffffff;
 }
 
 /*--------------------------End Skills-------------------------------*/
@@ -1121,27 +1118,27 @@ body > main > div > button:hover {
 /*--------------------------Start Education-------------------------------*/
 
 .education {
-    position: relative;
-    background-color: #E5E5E5;
-    width: 100%;
-    height: 100vh;
+  position: relative;
+  background-color: #e5e5e5;
+  width: 100%;
+  height: 100vh;
 }
 
 .education > .topicEducation {
-    position: absolute;
-    left: 70px;
-    top: 50px;
-    color: #33334F;
-    font-family: -apple-system, serif;
-    font-size: 15px;
+  position: absolute;
+  left: 70px;
+  top: 50px;
+  color: #33334f;
+  font-family: -apple-system, serif;
+  font-size: 15px;
 }
 
 .education > .dotsImage {
-    position: absolute;
-    left: 46px;
-    top: 68px;
-    font-size: 31px;
-    color: rgba(128, 128, 128, 0.23);
+  position: absolute;
+  left: 46px;
+  top: 68px;
+  font-size: 31px;
+  color: rgba(128, 128, 128, 0.23);
 }
 
 .education > .timeline {
@@ -1152,7 +1149,7 @@ body > main > div > button:hover {
 }
 
 .education > .timeline:before {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   left: 50%;
@@ -1170,7 +1167,7 @@ body > main > div > button:hover {
 }
 
 .education > .timeline article:after {
-  content: '';
+  content: "";
   display: block;
   clear: both;
 }
@@ -1195,10 +1192,10 @@ body > main > div > button:hover {
   font-size: 5px;
   font-weight: 400;
   text-transform: uppercase;
-  background: #29293F;
-  color: rgba(255,255,255,0.5);
-  border: 2px solid rgba(255,255,255,0.2);
-  box-shadow: 0 0 0 7px #29293F;
+  background: #29293f;
+  color: rgba(255, 255, 255, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 0 7px #29293f;
 }
 
 .education > .timeline article div.inner span.date span {
@@ -1230,11 +1227,11 @@ body > main > div > button:hover {
 }
 
 .education > .timeline article div.inner h2:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 20px;
   right: -5px;
-  width: 10px; 
+  width: 10px;
   height: 10px;
   -webkit-transform: rotate(-45deg);
 }
@@ -1249,69 +1246,69 @@ body > main > div > button:hover {
   box-shadow: 7px 7px 12px 0 #928c8c;
 }
 
-.education > .timeline article:nth-child(2n+2) div.inner {
+.education > .timeline article:nth-child(2n + 2) div.inner {
   float: right;
 }
 
-.education > .timeline article:nth-child(2n+2) div.inner h2:after {
+.education > .timeline article:nth-child(2n + 2) div.inner h2:after {
   left: -5px;
 }
 
 .education > .timeline article:nth-child(1) div.inner h2 {
-  background: #5E69DF
+  background: #5e69df;
 }
 
 .education > .timeline article:nth-child(1) div.inner h2:after {
-  background: #5E69DF;
+  background: #5e69df;
 }
 
 .education > .timeline article:nth-child(2) div.inner h2 {
-  background: #F9CF51;
+  background: #f9cf51;
 }
 
 .education > .timeline article:nth-child(2) div.inner h2:after {
-  background: #F9CF51;
+  background: #f9cf51;
 }
 
 .education > .timeline article:nth-child(3) div.inner h2 {
-  background: #FF415B;
+  background: #ff415b;
 }
 
 .education > .timeline article:nth-child(3) div.inner h2:after {
-  background: #FF415B;
+  background: #ff415b;
 }
 
 .education > .educationQuote {
-    position: absolute;
-    width: 450px;
-    height: 45px;
-    right: 420px;
-    bottom: 50px;
-    margin: auto;
-    background-color: #33334F;
-    border-radius: 0 30px 0 30px;
-    animation-name: up-down;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
-    animation-duration: 3s;
+  position: absolute;
+  width: 450px;
+  height: 45px;
+  right: 420px;
+  bottom: 50px;
+  margin: auto;
+  background-color: #33334f;
+  border-radius: 0 30px 0 30px;
+  animation-name: up-down;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
 }
 
 @keyframes up-down {
-    from{
-    }
-    to{
-        bottom: 10px;
-    }
+  from {
+  }
+  to {
+    bottom: 10px;
+  }
 }
 
 .education > .educationQuote > p {
-    position: relative;
-    width: 400px;
-    text-align: center;
-    font-size: 18px;
-    margin-top: 12px;
-    margin-left: 28px;
-    color: #ffffff;
+  position: relative;
+  width: 400px;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 12px;
+  margin-left: 28px;
+  color: #ffffff;
 }
 
 /*--------------------------End Education-------------------------------*/
@@ -1319,293 +1316,265 @@ body > main > div > button:hover {
 /*--------------------------Start Projects------------------------------*/
 
 .projects {
-    position: relative;
-    background-color: #E5E5E5;
-    width: 100%;
-    height: 100vh;
+  position: relative;
+  background-color: #e5e5e5;
+  width: 100%;
+  height: 100vh;
 }
 
 .projects > .topicProjects {
-    position: absolute;
-    left: 70px;
-    top: 50px;
-    color: #33334F;
-    font-family: -apple-system, serif;
-    font-size: 15px;
+  position: absolute;
+  left: 70px;
+  top: 50px;
+  color: #33334f;
+  font-family: -apple-system, serif;
+  font-size: 15px;
 }
 
 .projects > .dotsImage {
-    position: absolute;
-    left: 46px;
-    top: 68px;
-    font-size: 31px;
-    color: rgba(128, 128, 128, 0.23);
+  position: absolute;
+  left: 46px;
+  top: 68px;
+  font-size: 31px;
+  color: rgba(128, 128, 128, 0.23);
 }
 
 .projects-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    position: absolute;
-    top: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 115px;
 }
 
 .my-projects {
-    margin: 15px;
+  margin: 15px;
 }
 
 .flip-box {
-    background-color: transparent;
-    width: 250px;
-    height: 200px;
-    border: 1px solid #ffffff;  
-    border-radius: 10px;
-    perspective: 1000px;
-    box-shadow: 7px 7px 12px 0 #928c8c;
+  background-color: transparent;
+  width: 250px;
+  height: 200px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  perspective: 1000px;
+  box-shadow: 7px 7px 12px 0 #928c8c;
 }
 
 .flip-box-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .flip-box:hover .flip-box-inner {
-    transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
-.flip-box-front, .flip-box-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.flip-box-front,
+.flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .flip-box-front {
-    background-color: #ffffff;
-    color: black;
-    border-radius: 10px;
+  background-color: #ffffff;
+  color: black;
+  border-radius: 10px;
 }
 
 .flip-box-front img {
-    height: 180px;
-    width: 260px;
-    position: absolute;
-    top: 20px;
+  height: 180px;
+  width: 260px;
+  position: absolute;
+  top: 20px;
 }
 
 .flip-box-front h2 {
-    font-size: 15px;
-    position: absolute;
-    top: 2px;
-    color: rgba(0, 0, 0, 0.795);
+  font-size: 15px;
+  position: absolute;
+  top: 2px;
+  color: rgba(0, 0, 0, 0.795);
 }
 
 .flip-box-back {
-    background-color: #ffffff;
-    transform: rotateY(180deg);
-    border-radius: 10px;
-    padding: 16px;
+  background-color: #ffffff;
+  transform: rotateY(180deg);
+  border-radius: 10px;
+  padding: 16px;
 }
 
-.flip-box-back > p:nth-child(1){
-    color: rgba(0, 0, 0, 0.733);
-    font-size: 16px;
+.flip-box-back > p:nth-child(1) {
+  color: rgba(0, 0, 0, 0.733);
+  font-size: 16px;
 }
 
 .flip-box-back > p:nth-child(2) > .buttonReadMore {
-    position: absolute;
-    inset: 240px 0 0 0;
-    margin: auto;
-    width: 65px;
-    height: 15px;
-    bottom: 80px;
-    border-radius: 20px;
-    background-color: #FF415B;
-    text-decoration: none;
-    color: white;
-    font-size: 14px;
-    padding: 9px 22px;
-    border: 0;
-    cursor: pointer;
+  position: absolute;
+  inset: 240px 0 0 0;
+  margin: auto;
+  width: 65px;
+  height: 15px;
+  bottom: 80px;
+  border-radius: 20px;
+  background-color: #ff415b;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  padding: 9px 22px;
+  border: 0;
+  cursor: pointer;
 }
 
 .flip-box-back > p:nth-child(2) > .buttonReadMore:hover {
-    background-color: transparent;
-    border: 2px solid #FF415B;
-    color: black;
-    cursor: pointer;
+  background-color: transparent;
+  border: 2px solid #ff415b;
+  color: black;
+  cursor: pointer;
 }
 
 /*--------------------------End Projects------------------------------*/
 
-/*-------------------------Start Assignmnet------------------------------*/
-
-.assignments {
-    position: relative;
-    background-color: #E5E5E5;
-    width: 100%;
-    height: 100vh;
-}
-
-.assignments > .topicAssignments {
-    position: absolute;
-    left: 70px;
-    top: 50px;
-    color: #33334F;
-    font-family: -apple-system, serif;
-    font-size: 15px;
-}
-
-.assignments > .dotsImage {
-    position: absolute;
-    left: 46px;
-    top: 68px;
-    font-size: 31px;
-    color: rgba(128, 128, 128, 0.23);
-}
-
-
-/*--------------------------End Assignment------------------------------*/
-
 /*--------------------------Start Portfolio----------------------------*/
 
 .portFolio {
-    position: relative;
-    background-color: #E5E5E5;
-    width: 100%;
-    height: 100vh;
+  position: relative;
+  background-color: #e5e5e5;
+  width: 100%;
+  height: 100vh;
 }
 
 .portFolio > .topicPortfolio {
-    position: absolute;
-    left: 70px;
-    top: 50px;
-    color: #33334F;
-    font-family: -apple-system, serif;
-    font-size: 15px;
+  position: absolute;
+  left: 70px;
+  top: 50px;
+  color: #33334f;
+  font-family: -apple-system, serif;
+  font-size: 15px;
 }
 
 .portFolio > .dotsImage {
-    position: absolute;
-    left: 46px;
-    top: 68px;
-    font-size: 31px;
-    color: rgba(128, 128, 128, 0.23);
+  position: absolute;
+  left: 46px;
+  top: 68px;
+  font-size: 31px;
+  color: rgba(128, 128, 128, 0.23);
 }
 
 .portFolio > .image1Container {
-    position: absolute;
-    top: 164px;
-    left: 154px;
-    margin: auto;
-    width: 40px;
+  position: absolute;
+  top: 164px;
+  left: 154px;
+  margin: auto;
+  width: 40px;
 }
 
 .portFolio > .image1Container:hover {
-    transform: translateY(15px);
-    transition: all 0.4s ease-out;
+  transform: translateY(15px);
+  transition: all 0.4s ease-out;
 }
 
 .portFolio > .image1Container > .image1 {
-    position: absolute;
-    width: 405px;
-    height: 362px;
-    object-fit: cover;
-    background-position: center;
-    box-shadow: 7px 7px 12px 0 #928c8c;
+  position: absolute;
+  width: 405px;
+  height: 362px;
+  object-fit: cover;
+  background-position: center;
+  box-shadow: 7px 7px 12px 0 #928c8c;
 }
 
 .portFolio > .image2Container {
-    position: absolute;
-    top: 145px;
-    left: 650px;
-    margin: auto;
+  position: absolute;
+  top: 145px;
+  left: 650px;
+  margin: auto;
 }
 
 .portFolio > .image2Container:hover {
-    transform: translateY(15px);
-    transition: all 0.4s ease-out;
+  transform: translateY(15px);
+  transition: all 0.4s ease-out;
 }
 
 .portFolio > .image2Container > .image2 {
-    position: absolute;
-    width: 215px;
-    height: 171px;
-    object-fit: cover;
-    box-shadow: 7px 7px 12px 0 #928c8c;
+  position: absolute;
+  width: 215px;
+  height: 171px;
+  object-fit: cover;
+  box-shadow: 7px 7px 12px 0 #928c8c;
 }
 
 .portFolio > .image3Container {
-    position: absolute;
-    top: 145px;
-    left: 940px;
-    margin: auto;
+  position: absolute;
+  top: 145px;
+  left: 940px;
+  margin: auto;
 }
 
 .portFolio > .image3Container:hover {
-    transform: translateY(15px);
-    transition: all 0.4s ease-out;
+  transform: translateY(15px);
+  transition: all 0.4s ease-out;
 }
 
 .portFolio > .image3Container > .image3 {
-    position: absolute;
-    width: 215px;
-    height: 171px;
-    object-fit: cover;
-    box-shadow: 7px 7px 12px 0 #928c8c;
+  position: absolute;
+  width: 215px;
+  height: 171px;
+  object-fit: cover;
+  box-shadow: 7px 7px 12px 0 #928c8c;
 }
 
 .portFolio > .image4Container {
-    position: absolute;
-    top: 375px;
-    left: 650px;
+  position: absolute;
+  top: 375px;
+  left: 650px;
 }
 
 .portFolio > .image4Container:hover {
-    transform: translateY(15px);
-    transition: all 0.4s ease-out;
+  transform: translateY(15px);
+  transition: all 0.4s ease-out;
 }
 
 .portFolio > .image4Container > .image4 {
-    position: absolute;
-    width: 215px;
-    height: 171px;
-    object-fit: cover;
-    box-shadow: 7px 7px 12px 0 #928c8c;
+  position: absolute;
+  width: 215px;
+  height: 171px;
+  object-fit: cover;
+  box-shadow: 7px 7px 12px 0 #928c8c;
 }
 
 .portFolio > .image5Container {
-    position: absolute;
-    top: 375px;
-    left: 940px;
+  position: absolute;
+  top: 375px;
+  left: 940px;
 }
 
 .portFolio > .image5Container:hover {
-    transform: translateY(15px);
-    transition: all 0.4s ease-out;
+  transform: translateY(15px);
+  transition: all 0.4s ease-out;
 }
 
 .portFolio > .image5Container > .image5 {
-    position: absolute;
-    width: 215px;
-    height: 171px;
-    object-fit: cover;
-    box-shadow: 7px 7px 12px 0 #928c8c;
+  position: absolute;
+  width: 215px;
+  height: 171px;
+  object-fit: cover;
+  box-shadow: 7px 7px 12px 0 #928c8c;
 }
 
 /*--------------------------End Portfolio----------------------------*/
@@ -1613,370 +1582,369 @@ body > main > div > button:hover {
 /*--------------------------Start Contact---------------------------*/
 
 .contactMe {
-    position: relative;
-    background-color: #E5E5E5;
-    width: 100%;
-    height: 150vh;
+  position: relative;
+  background-color: #e5e5e5;
+  width: 100%;
+  height: 150vh;
 }
 
 .contactMe > .topicContactMe {
-    position: absolute;
-    left: 70px;
-    top: 50px;
-    color: #33334F;
-    font-family: -apple-system, serif;
-    font-size: 15px;
+  position: absolute;
+  left: 70px;
+  top: 50px;
+  color: #33334f;
+  font-family: -apple-system, serif;
+  font-size: 15px;
 }
 
 .contactMe > .dotsImage {
-    position: absolute;
-    left: 46px;
-    top: 68px;
-    font-size: 31px;
-    color: rgba(128, 128, 128, 0.23);
+  position: absolute;
+  left: 46px;
+  top: 68px;
+  font-size: 31px;
+  color: rgba(128, 128, 128, 0.23);
 }
 
 .contactMe > .contactContainer > .contactTitle {
-    position: relative;
-    margin: auto;
-    top: 120px;
-    color: rgba(0, 0, 0, 0.678);
-    text-align: center;
-    font-size: 16px;
+  position: relative;
+  margin: auto;
+  top: 120px;
+  color: rgba(0, 0, 0, 0.678);
+  text-align: center;
+  font-size: 16px;
 }
 
 .contactMe > .contactContainer > .contactSubTitle {
-    position: relative;
-    top: 120px;
-    color: rgba(0, 0, 0, 0.596);
-    text-align: center;
-    font-size: 13px;
+  position: relative;
+  top: 120px;
+  color: rgba(0, 0, 0, 0.596);
+  text-align: center;
+  font-size: 13px;
 }
 
 .contactMe > .quickContact {
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-    margin-top: 180px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin-top: 180px;
 }
 
 .contactMe > .quickContact > .contactInfo {
-    flex: 0 0 25%;
-    max-width: 25%;
-    text-align: center;
-    margin-bottom: 60px;
+  flex: 0 0 25%;
+  max-width: 25%;
+  text-align: center;
+  margin-bottom: 60px;
 }
 
 .contactMe > .quickContact > .contactInfo > .icon {
-    display: inline-block;
-    font-size: 20px;
-    color: #5E69DF;
+  display: inline-block;
+  font-size: 20px;
+  color: #5e69df;
 }
 
 .contactMe > .quickContact > .contactInfo h4 {
-    font-size: 15px;
-    font-weight: 800;
-    text-transform: capitalize;
-    margin: 15px 0 5px;
-    color: rgba(0, 0, 0, 0.705);
+  font-size: 15px;
+  font-weight: 800;
+  text-transform: capitalize;
+  margin: 15px 0 5px;
+  color: rgba(0, 0, 0, 0.705);
 }
 
 .contactMe > .quickContact > .contactInfo p {
-    font-size: 16px;
-    line-height: 15px;
-    font-weight: 400;
-    color: rgba(0, 0, 0, 0.829);
+  font-size: 16px;
+  line-height: 15px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.829);
 }
 
 .contactMe > .contactFormTitle {
-    position: relative;
-    margin: auto;
-    color: rgba(0, 0, 0, 0.678);
-    text-align: center;
-    font-size: 16px;
+  position: relative;
+  margin: auto;
+  color: rgba(0, 0, 0, 0.678);
+  text-align: center;
+  font-size: 16px;
 }
 
 .contactMe > .contactFormSubTitle {
-    position: relative;
-    color: rgba(0, 0, 0, 0.568);
-    text-align: center;
-    font-size: 13px;
+  position: relative;
+  color: rgba(0, 0, 0, 0.568);
+  text-align: center;
+  font-size: 13px;
 }
 
 .contactMe > .formContainer {
-    position: absolute;
-    left: 77px;
-    top: 500px;
-    width: 500px;
-    height: 430px;
+  position: absolute;
+  left: 77px;
+  top: 500px;
+  width: 500px;
+  height: 430px;
 }
 
 .contactMe > .formContainer > .content {
-    position: relative;
+  position: relative;
 }
 
 .contactMe > .formContainer > .content > .name {
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 450px;
-    height: 45px;
-    background-color: transparent;
-    border-bottom: 1px solid black;
-    border-top: 0;
-    border-right: 0;
-    border-left: 0;
-    color: black;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 450px;
+  height: 45px;
+  background-color: transparent;
+  border-bottom: 1px solid black;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  color: black;
 }
 
 .contactMe > .formContainer > .content > .name::placeholder {
-    color: rgba(0, 0, 0, 0.603);
-    font-size: 15px;
+  color: rgba(0, 0, 0, 0.603);
+  font-size: 15px;
 }
 
 .contactMe > .formContainer > .content > .name:focus {
-    outline: none;
+  outline: none;
 }
 
 .contactMe > .formContainer > .content > .email {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 60px;
-    margin: auto;
-    width: 450px;
-    height: 45px;
-    background-color: transparent;
-    border-bottom: 1px solid black;
-    border-top: 0;
-    border-right: 0;
-    border-left: 0;
-    color: black;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 60px;
+  margin: auto;
+  width: 450px;
+  height: 45px;
+  background-color: transparent;
+  border-bottom: 1px solid black;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  color: black;
 }
 
 .contactMe > .formContainer > .content > .email::placeholder {
-    color: rgba(0, 0, 0, 0.603);
-    font-size: 15px;
+  color: rgba(0, 0, 0, 0.603);
+  font-size: 15px;
 }
 
 .contactMe > .formContainer > .content > .email:focus {
-    outline: none;
+  outline: none;
 }
 
 .contactMe > .formContainer > .content > .subject {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 120px;
-    margin: auto;
-    width: 450px;
-    height: 45px;
-    background-color: transparent;
-    border-bottom: 1px solid black;
-    border-top: 0;
-    border-right: 0;
-    border-left: 0;
-    color: black;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 120px;
+  margin: auto;
+  width: 450px;
+  height: 45px;
+  background-color: transparent;
+  border-bottom: 1px solid black;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  color: black;
 }
 
 .contactMe > .formContainer > .content > .subject::placeholder {
-    color: rgba(0, 0, 0, 0.603);
-    font-size: 15px;
+  color: rgba(0, 0, 0, 0.603);
+  font-size: 15px;
 }
 
 .contactMe > .formContainer > .content > .subject:focus {
-    outline: none;
+  outline: none;
 }
 
 .contactMe > .formContainer > .content > .messageBox {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 180px;
-    margin: auto;
-    width: 450px;
-    background-color: transparent;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
-    border-right: 1px solid black;
-    border-left: 1px solid black;
-    color: black;
-    border-radius: 20px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 180px;
+  margin: auto;
+  width: 450px;
+  background-color: transparent;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  color: black;
+  border-radius: 20px;
 }
 
 .contactMe > .formContainer > .content > .messageBox::placeholder {
-    color: rgba(0, 0, 0, 0.603);
-    font-size: 15px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    width: max-content;
-    height: max-content;
+  color: rgba(0, 0, 0, 0.603);
+  font-size: 15px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: max-content;
+  height: max-content;
 }
 
 .contactMe > .formContainer > .content > .messageBox:focus {
-    outline: none;
+  outline: none;
 }
 
 .contactMe > .formContainer button {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 384px;
-    margin: auto;
-    width: 450px;
-    height: 35px;
-    background-color: #FF415B;
-    border: 0;
-    border-radius: 10px;
-    overflow: hidden;
-    color: #ffffff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 384px;
+  margin: auto;
+  width: 450px;
+  height: 35px;
+  background-color: #ff415b;
+  border: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  color: #ffffff;
 }
 
-.contactMe > .formContainer .sendBtn{
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    transition: all 0.5s;
+.contactMe > .formContainer .sendBtn {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
 }
 
 .contactMe > .formContainer .sendBtn span {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    margin: auto;
-    height: max-content;
-    font-size: 16px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  height: max-content;
+  font-size: 16px;
 }
 
 .contactMe > .formContainer .sendBtn .fa {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -30px;
-    margin: auto;
-    height: max-content;
-    font-size: 20px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -30px;
+  margin: auto;
+  height: max-content;
+  font-size: 20px;
 }
 
 .contactMe > .formContainer button:hover .sendBtn {
-    top: -38px;
-    transition: all 0.5s;
+  top: -38px;
+  transition: all 0.5s;
 }
 
 .contactMe .line {
-    position: absolute;
-    transform: rotate(90deg);
-    width: 470px;
-    height: 1px;
-    background-color: rgba(0, 0, 0, 0.089);
-    border-radius: 10px;
-    content: "";
-    top: 700px;
-    left: 425px;
+  position: absolute;
+  transform: rotate(90deg);
+  width: 470px;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.089);
+  border-radius: 10px;
+  content: "";
+  top: 700px;
+  left: 425px;
 }
 
 .contactMe > .locationMap {
-    position: absolute;
-    left: 750px;
-    top: 470px;
-    width: 450px;
-    height: 450px;
-    border: 1px solid #29293F;
-    box-shadow: 7px 7px 12px 0 #928c8c;
+  position: absolute;
+  left: 750px;
+  top: 470px;
+  width: 450px;
+  height: 450px;
+  border: 1px solid #29293f;
+  box-shadow: 7px 7px 12px 0 #928c8c;
 }
 
 /*--------------------------End Contact----------------------------*/
 
 /*--------------------------Start Page Footer----------------------------*/
 
-footer{
-    position: relative;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #33334F;
-    height: auto;
-    width: 100%;
-    font-family: "Open Sans";
-    padding-top: 30px;
-    color: #fff;
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #33334f;
+  height: auto;
+  width: 100%;
+  font-family: "Open Sans";
+  padding-top: 30px;
+  color: #fff;
 }
 
-.footer-content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 
-.footer-content h3{
-    font-size: 18px;
-    font-weight: 400;
-    text-transform: capitalize;
-    line-height: 3rem;
+.footer-content h3 {
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
 }
 
-.footer-content p{
-    max-width: 500px;
-    margin: 10px auto;
-    line-height: 28px;
-    font-size: 14px;
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
 }
 
-.socials{
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem 0 3rem 0;
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
 }
 
-.socials li{
-    margin: 0 10px;
+.socials li {
+  margin: 0 10px;
 }
 
-.socials a{
-    text-decoration: none;
-    color: #fff;
+.socials a {
+  text-decoration: none;
+  color: #fff;
 }
 
-.socials a i{
-    font-size: 16px;
-    transition: color .4s ease;
-
+.socials a i {
+  font-size: 16px;
+  transition: color 0.4s ease;
 }
 
-.socials a:hover i{
-    color: #F1C40F;
+.socials a:hover i {
+  color: #f1c40f;
 }
 
-.footer-bottom{
-    background: #29293F;
-    width: 100%;
-    padding: 5px 0;
-    text-align: center;
+.footer-bottom {
+  background: #29293f;
+  width: 100%;
+  padding: 5px 0;
+  text-align: center;
 }
 
-.footer-bottom p{
-    font-size: 14px;
-    word-spacing: 2px;
-    text-transform: capitalize;
+.footer-bottom p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
 }
 
-.footer-bottom span{
-    text-transform: uppercase;
-    opacity: .4;
-    font-weight: 200;
+.footer-bottom span {
+  text-transform: uppercase;
+  opacity: 0.4;
+  font-weight: 200;
 }
 
 /*--------------------------End Page Footer----------------------------*/
@@ -1984,18 +1952,18 @@ footer{
 /*--------------------------Ridght side scrol bar----------------------------*/
 
 ::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1;
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background: #FF415B;
-    border-radius: 10px;
-  }
-  
-  ::-webkit-scrollbar-thumb:hover {
-    background: #F9CF51;
-  }
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff415b;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #f9cf51;
+}
