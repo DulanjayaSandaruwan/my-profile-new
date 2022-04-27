@@ -665,7 +665,7 @@ body > main > div > button:hover {
 
 .services {
   position: relative;
-  background-color: #e5e5e5;
+  background-color: #fff;
   width: 100%;
   height: 100vh;
 }
@@ -1119,7 +1119,7 @@ body > main > div > button:hover {
 
 .education {
   position: relative;
-  background-color: #e5e5e5;
+  background-color: #fff;
   width: 100%;
   height: 100vh;
 }
@@ -1455,7 +1455,7 @@ body > main > div > button:hover {
 
 .portFolio {
   position: relative;
-  background-color: #e5e5e5;
+  background-color: #fff;
   width: 100%;
   height: 100vh;
 }
@@ -1583,7 +1583,7 @@ body > main > div > button:hover {
 
 .contactMe {
   position: relative;
-  background-color: #e5e5e5;
+  background-color: #fff;
   width: 100%;
   height: 150vh;
 }
