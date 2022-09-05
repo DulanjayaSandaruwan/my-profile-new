@@ -19,3 +19,17 @@ document.querySelectorAll('a').forEach(links =>{
         cursor2.classList.remove('active');
     }
 });
+
+// $(window).on('load', function () {
+//     console.log("Window Loaded");
+//     $("#loader_container").fadeOut(1000);
+// });
+
+
+// $(document).ready(function () {
+//     console.log("Document Ready");
+// });
+
+// $(function () {
+//     console.log("Document Loaded");
+// });
